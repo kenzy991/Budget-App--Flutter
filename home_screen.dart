@@ -94,7 +94,6 @@ class HomeScreen extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            /// Transactions
             const Text(
               "Recent Transactions",
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
@@ -129,3 +128,4 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
+
