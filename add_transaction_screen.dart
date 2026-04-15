@@ -67,7 +67,6 @@ class AddTransactionScreen extends StatelessWidget {
 
               ElevatedButton(
                 onPressed: () {
-                  // simple action
                 },
                 style: ElevatedButton.styleFrom(
                   minimumSize: Size(double.infinity, 50),
