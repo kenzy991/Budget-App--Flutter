@@ -21,7 +21,6 @@ class StatsScreen extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // First image
                 Container(
                   height: 200,
                   decoration: BoxDecoration(
@@ -35,8 +34,6 @@ class StatsScreen extends StatelessWidget {
                 ),
 
                 SizedBox(height: 10),
-
-                // Second image
                 Container(
                   height: 200,
                   decoration: BoxDecoration(
@@ -50,8 +47,6 @@ class StatsScreen extends StatelessWidget {
                 ),
 
                 SizedBox(height: 20),
-
-                // New Summary Container
                 Container(
                   padding: EdgeInsets.all(16),
                   decoration: BoxDecoration(
@@ -99,6 +94,11 @@ class StatsScreen extends StatelessWidget {
             ),
           ),
         ),
+      ),
+    );
+  }
+}
+
       ),
     );
   }
